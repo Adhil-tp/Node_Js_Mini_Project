@@ -1,0 +1,43 @@
+[  {
+    "userName": "mohamed adhil",
+    "userMail": "mohamed@gmail.com",
+    "createPass": "Adhil@12",
+    "confirmPass": "Adhil@12"
+  },
+  {
+    "userName": "Ajnas",
+    "userMail": "ajnas@gmail.com",
+    "createPass": "Ajnas@12",
+    "confirmPass": "Ajnas@12"
+  },
+  {
+    "userName": "Kailas",
+    "userMail": "kailu@gmail.com",
+    "createPass": "kialas@12",
+    "confirmPass": "Kailas@12"
+  },
+  {
+    "userName": "Riswan",
+    "userMail": "riswan@gmail.com",
+    "createPass": "Riswan@12",
+    "confirmPass": "Riswan@12"
+  },
+  {
+    "userName": "Abhishek",
+    "userMail": "abhishek@gmail.com",
+    "createPass": "Abhi@12",
+    "confirmPass": "Abhi@12"
+  },
+  {
+    "userName": "Adhil Suhara",
+    "userMail": "AdhilSuhara@gmail.com",
+    "newPassWord": "AdhilSuhara@12",
+    "confirmPassWord": "AdhilSuhara@12"
+  },
+  {
+    "userName": "Adhil",
+    "userMail": "ahfkjska@gmail.com",
+    "newPassWord": "Adhil@12",
+    "confirmPassWord": "Adhil@12"
+  }
+]

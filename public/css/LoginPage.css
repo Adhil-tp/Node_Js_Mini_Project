@@ -1,0 +1,52 @@
+* {  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container,
+form,
+form > div {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form > div > div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.inputs div input {
+  border: none;
+  height: 30px;
+}
+form > div {
+  width: 100%;
+
+  flex-direction: column;
+}
+
+.inputs {
+  display: flex;
+  width: 80%;
+  gap: 30px;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: lavender;
+}
+
+form {
+  width: 350px;
+  height: 250px;
+  background-color: brown;
+  flex-direction: column;
+  gap: 40px;
+  padding: 10px;
+}
+
+button {
+  width: 80%;
+  height: 30px;
+}

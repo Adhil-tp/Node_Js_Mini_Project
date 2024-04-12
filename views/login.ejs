@@ -1,0 +1,22 @@
+<%- include('includes/header')%>
+
+    <div class="container">
+        <form action="/login" method="post">
+            <div class="inputs">
+                <div>
+                    <label for="userMail">Your Email</label>
+                    <input type="email" name="userMail" id="userMail" placeholder="Your Email please" required>
+                </div>
+                <div>
+                    <label for="userPhone">Phone Number</label>
+                    <input type="text" name="userPhone" id="userPhone" placeholder="Enter your Phone number" required>
+                </div>
+            </div>
+            <button type="submit" class="submit">Login</button>
+        </form>
+        <p>
+            <%= error %>
+        </p>
+    </div>
+
+    <%- include('includes/end') %>

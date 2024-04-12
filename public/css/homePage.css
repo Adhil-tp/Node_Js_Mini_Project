@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Home Page css */
+.home-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: lavender;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home {
+  max-width: 500px;
+  min-width: 400px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: rgba(60, 64, 255, 0.703);
+}
+.home-container a {
+  background-color: white;
+  text-align: center;
+  vertical-align: middle;
+  height: 30px;
+  width: 100px;
+}
+
+.headContainer {
+  width: 100vw;
+  height: 70px;
+  background-color: lavender;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}

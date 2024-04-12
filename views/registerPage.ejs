@@ -1,0 +1,34 @@
+<%- include('includes/header') %>
+
+  <div class="container">
+    <form id="reg-form">
+      <div class="auth-details">
+        <div class="labels">
+          <label for="userName">Your name</label>
+          <input type="text" id="userName" name="userName" placeholder="Name Please">
+        </div>
+        <div class="labels">
+          <label for="userMail">Your Email</label>
+          <input type="text" id="userMail" name="userMail" placeholder="Email Please">
+
+        </div>
+        <div class="labels">
+          <label for="createPass">Create new password</label>
+          <input type="password" id="createPass" name="createPass" placeholder="Create a new Password">
+          <div class="pass-error">the password must contain 8 character , 1 number , 1 uppercase , 1 lowercase and 1
+            special character</div>
+        </div>
+        <div class="labels">
+          <label for="confirmPass">comfirm password</label>
+          <input type="password" id="confirmPass" name="confirmPass" placeholder="Confirm your new password">
+          <div class="confirm-error">this pass must match the previous field</div>
+        </div>
+      </div>
+      <div class="existing-user">user name or email exists</div>
+
+      <button id="register" type="submit">Submit</button>
+    </form>
+  </div>
+
+
+  <%- include('includes/end') %>
