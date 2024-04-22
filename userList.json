@@ -82,5 +82,17 @@
         "userMail": "vishnu@gmail.com",
         "createPass": "Vishnu@12",
         "confirmPass": "Vishnu@12"
+    },
+    {
+        "userName": "karthik",
+        "userMail": "karthik@gmail.com",
+        "createPass": "Karthik@12",
+        "confirmPass": "Karthik@12"
+    },
+    {
+        "userName": "this",
+        "userMail": "tafafahis@gmail.com",
+        "createPass": "This@123",
+        "confirmPass": "This@123"
     }
 ]
