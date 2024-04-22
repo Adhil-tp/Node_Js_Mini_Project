@@ -118,7 +118,7 @@ app.post("/registerPage", (req, res) => {
     // console.log("Session before no duplicate:", req.session.duplicateFound);
     req.session.duplicateFound = ''
     // console.log("Session after no duplicate:", req.session.duplicateFound);
-    res.redirect('/home');
+    res.redirect('/');
   } else {
     console.log("Found duplicate")
     req.session.duplicateFound = "A user is found with same credetials"
